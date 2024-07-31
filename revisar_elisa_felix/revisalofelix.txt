@@ -1,0 +1,53 @@
+    1  mkdir revisar_elisa_felix
+    2  cd revisar_elisa_felix/
+    3  touch hello_world.py
+    4  nano hello_world.py 
+    5  mkdir scripts_python
+    6  nano hello_world.py 
+    7  mv hello_world.py scripts_python
+    8  mkdir scripts_bash
+    9  cd scripts_bash
+   10  touch execute_python.sh
+   11  nano execute_python.sh 
+   12  chmod +x execute_python.sh
+   13  ./execute_python.sh 
+   14  cd..
+   15  cd ..
+   16  cd scripts_python
+   17  cp hello_world.py copy_hello_world.py
+   18  nano copy_hello_world.py 
+   19  ./copy_hello_world
+   20  nano copy_hello_world.py 
+   21  touch test.txt
+   22  ./copy_hello_world
+   23  nano copy_hello_world.py 
+   24  ./copy_hello_world
+   25  ./copy_hello_world.py
+   26  chmod +x copy_hello_world.py 
+   27  ./copy_hello_world.py 
+   28  nano copy_hello_world.py 
+   29  ./copy_hello_world.py 
+   30  nano copy_hello_world.py 
+   31  ./copy_hello_world.py 
+   32  nano copy_hello_world.py 
+   33  clear
+   34  ./copy_hello_world.py 
+   35  /workspaces/exercise-terminal-challenge/revisar_elisa_felix/scripts_python/test.txt
+   36  chmod +x copy_hello_world.py 
+   37  ./copy_hello_world.py 
+   38  clear
+   39  python3 copy_hello_world.py 
+   40  nano copy_hello_world.py 
+   41  python3 copy_hello_world.py 
+   42  cat test.txt
+   43  rm hello_world.py 
+   44  ls
+   45  cd ..
+   46  cat scripts_python/test.txt
+   47  wget  https://getsamplefiles.com/download/tar/sample-1.tar
+   48  wget  https://es.getsamplefiles.com/download/tar/sample-1.tar
+   49  tar -xvf sample-1.tar
+   50  find -name *.jpg
+   51  pwd
+   52  history
+   53  history > revisalofelix.txt
